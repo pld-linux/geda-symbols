@@ -5,11 +5,6 @@ Version:	20010304
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Group(de):	X11/Applikationen
-Group(es):	X11/Aplicaciones
-Group(pl):	X11/Aplikacje
-Group(pt_BR):	X11/Aplicações
-Group(pt):	X11/Aplicações
 Source0:	ftp://ftp.geda.seul.org/pub/geda/devel/symbols-%{version}.tar.gz
 URL:		http://www.geda.seul.org/
 # FIXME. It should be noarch but rpm breaks attr() then.
