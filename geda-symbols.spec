@@ -1,5 +1,5 @@
-Summary:	symbols of electronic devices
-Summary(pl):	symbole elementów elektronicznych
+Summary:	Symbols of electronic devices
+Summary(pl):	Symbole elementów elektronicznych
 Name:		geda-symbols
 Version:	20021103
 Release:	1
@@ -10,7 +10,6 @@ Source0:	http://www.geda.seul.org/devel/%{version}/geda-symbols-%{version}.tar.g
 URL:		http://www.geda.seul.org/
 #BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 This package contains a bunch of symbols of electronic devices used by
