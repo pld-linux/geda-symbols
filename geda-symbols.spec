@@ -9,6 +9,7 @@ Source0:	http://www.geda.seul.org/devel/%{version}/geda-symbols-%{version}.tar.g
 # Source0-md5:	5d5c3d58ce99d233d662378bb6ba40cf
 URL:		http://www.geda.seul.org/
 #BuildArch:	noarch
+Requires:	libgeda
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -37,4 +38,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc TODO AUTHORS ChangeLog NEWS README
-%{_datadir}/gEDA
+%{_datadir}/gEDA/sym
+%{_datadir}/gEDA/system-commonrc
