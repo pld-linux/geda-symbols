@@ -33,14 +33,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT \
-
-gzip -9nf TODO AUTHORS ChangeLog NEWS README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc TODO AUTHORS ChangeLog NEWS README
 %attr(755,root,root) %{_bindir}/*-config
 %{_datadir}/gEDA
