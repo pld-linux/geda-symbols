@@ -1,12 +1,12 @@
 Summary:	Symbols of electronic devices
 Summary(pl):	Symbole elementów elektronicznych
 Name:		geda-symbols
-Version:	20021103
+Version:	20030901
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.geda.seul.org/devel/%{version}/geda-symbols-%{version}.tar.gz
-# Source0-md5:	ee57f790260e6906c69c5ff4188f1418
+# Source0-md5:	5d5c3d58ce99d233d662378bb6ba40cf
 URL:		http://www.geda.seul.org/
 #BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -37,5 +37,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc TODO AUTHORS ChangeLog NEWS README
-%attr(755,root,root) %{_bindir}/*-config
 %{_datadir}/gEDA
