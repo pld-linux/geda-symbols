@@ -16,7 +16,7 @@ This package contains a bunch of symbols of electronic devices used by
 gschem, the gEDA project schematic editor.
 
 %description -l pl
-Pakiet zawiera du¿± ilo¶æ symboli elementów elektronycznych, które s±
+Pakiet zawiera du¿± ilo¶æ symboli elementów elektronicznych, które s±
 u¿ywane w edytorze schematów gschem.
 
 %prep
