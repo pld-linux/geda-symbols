@@ -1,12 +1,12 @@
 Summary:	Symbols of electronic devices
 Summary(pl):	Symbole elementów elektronicznych
 Name:		geda-symbols
-Version:	20030901
-Release:	1
+Version:	20040111
+Release:	0.1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.geda.seul.org/devel/%{version}/geda-symbols-%{version}.tar.gz
-# Source0-md5:	5d5c3d58ce99d233d662378bb6ba40cf
+# Source0-md5:	97ff0fa7bfabf150dc047c733d7b8c34
 URL:		http://www.geda.seul.org/
 #BuildArch:	noarch
 Requires:	libgeda
@@ -21,7 +21,7 @@ Pakiet zawiera du¿± ilo¶æ symboli elementów elektronicznych, które s±
 u¿ywane w edytorze schematów gschem.
 
 %prep
-%setup  -q
+%setup -q
 
 %build
 %configure
@@ -31,7 +31,7 @@ u¿ywane w edytorze schematów gschem.
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-	DESTDIR=$RPM_BUILD_ROOT \
+	DESTDIR=$RPM_BUILD_ROOT
 %clean
 rm -rf $RPM_BUILD_ROOT
 
