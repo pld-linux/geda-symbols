@@ -28,7 +28,7 @@ u¿ywane w edytorze schematów gschem.
 %setup  -q -n symbols
 
 %build
-%configure
+%configure2_13
 %{__make}
 
 %install
