@@ -6,7 +6,7 @@ Release:	0.1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.geda.seul.org/devel/%{version}/geda-symbols-%{version}.tar.gz
-# Source0-md5:	a05c9bb11a31c246be3c9a799685bb0e
+# Source0-md5:	0cc22d0d36c5f2f1c09aa82eb6d0edf6
 URL:		http://www.geda.seul.org/
 #BuildArch:	noarch
 Requires:	libgeda
