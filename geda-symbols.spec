@@ -1,5 +1,5 @@
 Summary:	Symbols of electronic devices
-Summary(pl):	Symbole elementów elektronicznych
+Summary(pl.UTF-8):   Symbole elementÃ³w elektronicznych
 Name:		geda-symbols
 Version:	20061020
 Release:	0.1
@@ -16,9 +16,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This package contains a bunch of symbols of electronic devices used by
 gschem, the gEDA project schematic editor.
 
-%description -l pl
-Pakiet zawiera du¿± ilo¶æ symboli elementów elektronicznych, które s±
-u¿ywane w edytorze schematów gschem.
+%description -l pl.UTF-8
+Pakiet zawiera duÅ¼Ä… iloÅ›Ä‡ symboli elementÃ³w elektronicznych, ktÃ³re sÄ…
+uÅ¼ywane w edytorze schematÃ³w gschem.
 
 %prep
 %setup -q
