@@ -1,5 +1,5 @@
 Summary:	Symbols of electronic devices
-Summary(pl.UTF-8):   Symbole elementów elektronicznych
+Summary(pl.UTF-8):	Symbole elementów elektronicznych
 Name:		geda-symbols
 Version:	20061020
 Release:	0.1
