@@ -40,4 +40,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc TODO AUTHORS ChangeLog NEWS README
 %{_datadir}/gEDA/scheme
 %{_datadir}/gEDA/sym
+%{_datadir}/gEDA/gafrc.d/geda-clib.scm
 %{_docdir}/geda-doc/nc.pdf
